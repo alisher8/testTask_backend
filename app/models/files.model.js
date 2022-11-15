@@ -8,6 +8,12 @@ module.exports = (sequelize, DataTypes) => {
       },
       size: {
         type: DataTypes.BLOB("long"),
+      },
+      createdAt: {
+        type: DataTypes.DATE,
+      },
+      updatedAt: {
+        type: DataTypes.DATE,
       }
     });
   
